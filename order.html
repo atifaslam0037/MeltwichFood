@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+        integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header id="header-container">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="d-flex">
+                    <a class="navbar-brand" href="#">
+                        <img width="216" height="56" alt="Meltwich Logo" title="Meltwich Logo" class="me-1 lazyloaded"
+                            src="./assets/image/meltwich-logo.webp" alt="" />
+                    </a>
+                    <div class="location-selector">
+                        <a class="ca-selector" href="#">
+                            <img width="24" height="24" data-src="./assets/image/ca-flag.png"
+                                class="ca-flag-location-selector lazyloaded" src="./assets/image/ca-flag.png" />
+                        </a>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavMeltwich" aria-controls="navbarNavMeltwich" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavMeltwich">
+                    <div class="d-flex d-xl-none justify-content-between align-item-center gap-2 mb-4 w-100">
+                        <a class="navbar-brand" href="#">
+                            <img width="216" height="56" alt="Meltwich Logo" title="Meltwich Logo"
+                                class="me-1 lazyloaded" src="./assets/image/meltwich-logo-white.png" alt="" />
+                        </a>
+                        <button class="navbar-toggler close fw-bold text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavMeltwich" aria-controls="navbarNavMeltwich" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <i class="fa-solid fa-x"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav ms-xl-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Franchise</a>
+                        </li>
+                        <li class="nav-item location-icon">
+                            <a class="nav-link" href="#">Locations</a>
+                        </li>
+                        <li class="nav-item location-icon">
+                            <a class="nav-link btn btn-yellow ms-xl-4 btn-bold" href="#">Order</a>
+                        </li>
+                    </ul>
+
+                    <div class="section-text mobile-social-links my-4 d-xl-none">
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <div class="container-fluid py-xl-5 py-3">
+            <div class="px-md-4 px-sm-3 px-2 py-5">
+                <div class="d-flex justify-content-center align-content-center gap-0 row">
+                        <div class="order_imgs col-md col-12 px-0">
+                            <div class="bg-eff">
+                                <img decoding="async" alt="" class="img-fluid lazyloaded w-100"
+                                    src="./assets/image/delivery.webp" style="margin-right: -35px; border-radius: 15px 0 0 15px;"/>
+                                    <span></span>
+                                <button class="btn btn-white-border">Delivery</button>
+                            </div>
+                        </div>
+                    
+                        <div class="order_imgs col-md col-12 px-0">
+                            <div class="bg-eff">
+                                <img decoding="async" alt="" class="img-fluid lazyloaded w-100"
+                                    src="./assets/image/takeout.png"  style="margin-left: -15px; border-radius: 0 15px 15px 0;"/>
+                                    <span></span>
+                                <button class="btn btn-white-border">Takeout</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-stay-updated">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h5>GET ACCESS TO NEWS AND EXCLUSIVE SAVINGS!</h5>
+                        <div class="d-flex justify-content-start align-content-center flex-wrap gap-3">
+                            <input type="email" value="" class="large" placeholder="Join Email List" />
+                            <div>
+                                <button type="submit" class="btn btn-yellow fw-bold">
+                                    Sign up for emails
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="section-text mobile-social-links my-4">
+                            <div class="social-links text-black">
+                                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-md-12 d-flex justify-content-start align-content-center gap-3 flex-md-nowrap flex-wrap w-100">
+                        <div class="" style="width: 110px; flex: 0 0 110px">
+                            <img alt="Footer Logo" title="Footer Logo" width="110" height="103"
+                                class="footer-logo ls-is-cached lazyloaded"
+                                src="./assets/image/meltwich-logo-round.png" />
+                        </div>
+                        <div class="footer-nav align-content-center w-100">
+                            <h5 class="fw-bold">
+                                <a href="#"> NUTRITIONAL INFORMATION </a>
+                            </h5>
+                            <div
+                                class="d-flex justify-content-start align-content-center gap-3 flex-lg-nowrap flex-wrap w-100">
+                                <div class="copyright">© 2024 Meltwich</div>
+                                <ul
+                                    class="d-flex justify-content-start align-content-center gap-3 w-100 flex-sm-nowrap flex-wrap">
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Nutritional Information</a></li>
+                                </ul>
+                                <!-- Button trigger modal -->
+                                <div class="langure_modal">
+                                    <p>Canda</p>
+                                    <a role="button" href="#changeLangModal" class="" data-bs-toggle="modal"
+                                        data-bs-target="#changeLangModal">
+                                        Change
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- fix buttton -->
+
+    <a href="#" class="btn btn-yellow px-4 py-3 fix-btn"> Want Deals? </a>
+    <!-- Modal -->
+    <div class="modal fade" id="changeLangModal" tabindex="-1" aria-labelledby="changeLocation" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="changeLocation">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"
+        integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/main.js"></script>
+
+
+</body>
+
+</html>

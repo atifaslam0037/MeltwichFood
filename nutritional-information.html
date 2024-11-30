@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+        integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header id="header-container">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="d-flex">
+                    <a class="navbar-brand" href="#">
+                        <img width="216" height="56" alt="Meltwich Logo" title="Meltwich Logo" class="me-1 lazyloaded"
+                            src="./assets/image/meltwich-logo.webp" alt="" />
+                    </a>
+                    <div class="location-selector">
+                        <a class="ca-selector" href="#">
+                            <img width="24" height="24" data-src="./assets/image/ca-flag.png"
+                                class="ca-flag-location-selector lazyloaded" src="./assets/image/ca-flag.png" />
+                        </a>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavMeltwich" aria-controls="navbarNavMeltwich" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavMeltwich">
+                    <div class="d-flex d-xl-none justify-content-between align-item-center gap-2 mb-4 w-100">
+                        <a class="navbar-brand" href="#">
+                            <img width="216" height="56" alt="Meltwich Logo" title="Meltwich Logo"
+                                class="me-1 lazyloaded" src="./assets/image/meltwich-logo-white.png" alt="" />
+                        </a>
+                        <button class="navbar-toggler close fw-bold text-white" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavMeltwich" aria-controls="navbarNavMeltwich" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <i class="fa-solid fa-x"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav ms-xl-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Franchise</a>
+                        </li>
+                        <li class="nav-item location-icon">
+                            <a class="nav-link" href="#">Locations</a>
+                        </li>
+                        <li class="nav-item location-icon">
+                            <a class="nav-link btn btn-yellow ms-xl-4 btn-bold" href="#">Order</a>
+                        </li>
+                    </ul>
+
+                    <div class="section-text mobile-social-links my-4 d-xl-none">
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main id="main-content">
+        <div class="container-sm container-fluid pb-3">
+            <div class="px-xl-5 px-md-4 px-sm-3 px-0 c-nutritional-information text-black pb-5">
+                <h1 class="main-heading fw-bolder text-black">Nutritional Information</h1>
+                <p class="des text-black">If you have any questions about our menu, please <a href="#" class="text-decoration-underline">contact us.</a></p>
+                <div class="food-items pb-5">
+                    <div class="food-category food-category-id-5 food-category-slug-grilled-cheese">
+                        <h2 id="grilled-cheese">Grilled Cheese</h2>
+
+                        <div class="food-item-list">
+                            <div class="food-item">
+                                <div class="food-item-name">The Barnyard</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Ultimelt</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Mac Attack</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">883 Calories</div>
+                                    <div class="halal-calories">Halal: 893 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Tattooed Chicken Club</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">1042 Calories</div>
+                                    <div class="halal-calories">Halal: 1052 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Southern Fried Chicken Melt</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">788 Calories</div>
+                                    <div class="halal-calories">Halal: 788 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Bacon Avocado</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">918 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">The Godfather</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">672 Calories</div>
+                                    <div class="halal-calories">Halal: 682 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Big Melt</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">875 Calories</div>
+                                    <div class="halal-calories">Halal: 875 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Monster Melt</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">1022 Calories</div>
+                                    <div class="halal-calories">Halal: 1032 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">The Grilly Steak</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">784 Calories</div>
+                                    <div class="halal-calories">Halal: 784 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Classic Melt</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">544 Calories</div>
+                                    <div class="halal-calories">Halal: 544 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Beef Bacon Avocado</div>
+                                <div class="food-item-calories">
+                                    <div class="halal-calories">Halal: 928 Calories</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-category food-category-id-6 food-category-slug-burgers">
+                        <h2 id="burgers">Burgers</h2>
+
+                        <div class="food-item-list">
+                            <div class="food-item">
+                                <div class="food-item-name">The Standard</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">734 Calories</div>
+                                    <div class="halal-calories">Halal: 734 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Triple Stack</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">The 4×4</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">1189 Calories</div>
+                                    <div class="halal-calories">Halal: 1189 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Smokey Banquet</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">816 Calories</div>
+                                    <div class="halal-calories">Halal: 826 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Spicy Nashville Chicken</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">573 Calories</div>
+                                    <div class="halal-calories">Halal: 573 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Crispy Chicken</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">522 Calories</div>
+                                    <div class="halal-calories">Halal: 522 Calories</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-category food-category-id-7 food-category-slug-phillies">
+                        <h2 id="phillies">Phillies</h2>
+
+                        <div class="food-item-list">
+                            <div class="food-item">
+                                <div class="food-item-name">Philly Cheese Steak</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">577 Calories</div>
+                                    <div class="halal-calories">Halal: 577 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">The Double Stack</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">875 Calories</div>
+                                    <div class="halal-calories">Halal: 875 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">The Smoke Stack</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">615 Calories</div>
+                                    <div class="halal-calories">Halal: 625 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">The Mac &amp; Cheese Steak</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">724 Calories</div>
+                                    <div class="halal-calories">Halal: 734 Calories</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-category food-category-id-8 food-category-slug-poutine">
+                        <h2 id="poutine">Poutine</h2>
+
+                        <div class="food-item-list">
+                            <div class="food-item">
+                                <div class="food-item-name">Classic Poutine</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">1365 Calories</div>
+                                    <div class="halal-calories">Halal: 1365 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Mini Poutine</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">616 Calories</div>
+                                    <div class="halal-calories">Halal: 616 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">The Mac Daddy</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">1496 Calories</div>
+                                    <div class="halal-calories">Halal: 1506 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Spicy Steak</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">1634 Calories</div>
+                                    <div class="halal-calories">Halal: 1634 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Chicken Bacon Ranch</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">1581 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Spicy Nashville Chicken</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">1661 Calories</div>
+                                    <div class="halal-calories">Halal: 1661 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Chicken Beef Bacon Ranch</div>
+                                <div class="food-item-calories">
+                                    <div class="halal-calories">Halal: 1581 Calories</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-category food-category-id-9 food-category-slug-plant-based">
+                        <h2 id="plant-based">Plant Based</h2>
+
+                        <div class="food-item-list">
+                            <div class="food-item">
+                                <div class="food-item-name">Classic Vegan Melt</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">497 Calories</div>
+                                    <div class="halal-calories">Halal: 497 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Guac &amp; Roll</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">568 Calories</div>
+                                    <div class="halal-calories">Halal: 568 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Classic Vegan Poutine | Mini</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">596 Calories</div>
+                                    <div class="halal-calories">Halal: 596 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Vegan Chick’n Strips</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">
+                                        3pcs-150, 5pcs-260,10pcs-510 Calories
+                                    </div>
+                                    <div class="halal-calories">
+                                        Halal: 3pcs-150, 5pcs-260,10pcs-510 Calories
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">ImpossibleTM Burger</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">520 Calories</div>
+                                    <div class="halal-calories">Halal: 520 Calories</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-category food-category-id-12 food-category-slug-cold-drinks">
+                        <h2 id="cold-drinks">Cold Drinks</h2>
+
+                        <div class="food-item-list">
+                            <div class="food-item">
+                                <div class="food-item-name">Cold Drinks</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">On Tap</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Premium Bottles</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">
+                                        Belgian Moon (341mL) – 168, Heineken (330mL) – 139, Sol
+                                        (330mL) – 138, Strongbow Cider (440mL) – 173 Calories
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Domestic Bottles</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">
+                                        Molson Canadian (341mL) – 143,Coors Light (341mL) – 102,
+                                        Rickards Red (341mL) – 160 Calories
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Hard Seltzers</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">140 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Spirits &amp; Mixes</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">
+                                        Strawberry Getaway – 703, Canadian Mudslide – 718 Calories
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-category food-category-id-20 food-category-slug-kids-menu">
+                        <h2 id="kids-menu">Kids Menu</h2>
+
+                        <div class="food-item-list">
+                            <div class="food-item">
+                                <div class="food-item-name">Chicken Tenders</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">564 Calories</div>
+                                    <div class="halal-calories">Halal: 564 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Kids Grilled Cheese</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">628 Calories</div>
+                                    <div class="halal-calories">Halal: 628 Calories</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-category food-category-id-13 food-category-slug-milkshakes">
+                        <h2 id="milkshakes">Milkshakes</h2>
+
+                        <div class="food-item-list">
+                            <div class="food-item">
+                                <div class="food-item-name">Banana Cream Pie Shake</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Strawberry Shortcake Shake</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Caramel Crumble Shake</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Mango Shake</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Oreo Milkshake</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">
+                                        Small-403,Large-532 Calories
+                                    </div>
+                                    <div class="halal-calories">
+                                        Halal: Small-403,Large-532 Calories
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Classic Shake</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">
+                                        Small: chocolate: 436 vanilla: 551 strawberry: 459 salted
+                                        caramel: 556 <br />
+                                        Large: chocolate: 596 vanilla: 766 strawberry: 629 salted
+                                        caramel: 773 Calories
+                                    </div>
+                                    <div class="halal-calories">
+                                        Halal: Small: chocolate: 436 vanilla: 551 strawberry: 459
+                                        salted caramel: 556 <br />
+                                        Large: chocolate: 596 vanilla: 766 strawberry: 629 salted
+                                        caramel: 773 Calories
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Peanut Butter Shake</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">1305 Calories</div>
+                                    <div class="halal-calories">Halal: 1305 Calories</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="food-category food-category-id-11 food-category-slug-sides">
+                        <h2 id="sides">Sides</h2>
+
+                        <div class="food-item-list">
+                            <div class="food-item">
+                                <div class="food-item-name">Chicken Wings</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Jalapeño Poppers</div>
+                                <div class="food-item-calories"></div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Coleslaw</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">300 Calories</div>
+                                    <div class="halal-calories">Halal: 300 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Tomato Bisque Soup</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">349 Calories</div>
+                                    <div class="halal-calories">Halal: 349 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Russet Potato Fries</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">
+                                        Small-604,Large-984 Calories
+                                    </div>
+                                    <div class="halal-calories">
+                                        Halal: Small-604,Large-984 Calories
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Mac &amp; Cheese Wedges</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">294 Calories</div>
+                                    <div class="halal-calories">Halal: 294 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Mac &amp; Cheese</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">483 Calories</div>
+                                    <div class="halal-calories">Halal: 483 Calories</div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">Tater Tots</div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">
+                                        Small-573,Large-938 Calories
+                                    </div>
+                                    <div class="halal-calories">
+                                        Halal: Small-573,Large-938 Calories
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-item">
+                                <div class="food-item-name">
+                                    Southern Fried Chicken Strips
+                                </div>
+                                <div class="food-item-calories">
+                                    <div class="default-calories">
+                                        3pc-540,5pc-900,10pc-1800 Calories
+                                    </div>
+                                    <div class="halal-calories">
+                                        Halal: 3pc-540,5pc-900,10pc-1800 Calories
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-stay-updated">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h5>GET ACCESS TO NEWS AND EXCLUSIVE SAVINGS!</h5>
+                        <div class="d-flex justify-content-start align-content-center flex-wrap gap-3">
+                            <input type="email" value="" class="large" placeholder="Join Email List" />
+                            <div>
+                                <button type="submit" class="btn btn-yellow fw-bold">
+                                    Sign up for emails
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="section-text mobile-social-links my-4">
+                            <div class="social-links text-black">
+                                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-md-12 d-flex justify-content-start align-content-center gap-3 flex-md-nowrap flex-wrap w-100">
+                        <div class="" style="width: 110px; flex: 0 0 110px">
+                            <img alt="Footer Logo" title="Footer Logo" width="110" height="103"
+                                class="footer-logo ls-is-cached lazyloaded"
+                                src="./assets/image/meltwich-logo-round.png" />
+                        </div>
+                        <div class="footer-nav align-content-center w-100">
+                            <h5 class="fw-bold">
+                                <a href="#"> NUTRITIONAL INFORMATION </a>
+                            </h5>
+                            <div
+                                class="d-flex justify-content-start align-content-center gap-3 flex-lg-nowrap flex-wrap w-100">
+                                <div class="copyright">© 2024 Meltwich</div>
+                                <ul
+                                    class="d-flex justify-content-start align-content-center gap-3 w-100 flex-sm-nowrap flex-wrap">
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Nutritional Information</a></li>
+                                </ul>
+                                <!-- Button trigger modal -->
+                                <div class="langure_modal">
+                                    <p>Canda</p>
+                                    <a role="button" href="#changeLangModal" class="" data-bs-toggle="modal"
+                                        data-bs-target="#changeLangModal">
+                                        Change
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- fix buttton -->
+
+    <a href="#" class="btn btn-yellow px-4 py-3 fix-btn"> Want Deals? </a>
+    <!-- Modal -->
+    <div class="modal fade" id="changeLangModal" tabindex="-1" aria-labelledby="changeLocation" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="changeLocation">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"
+        integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
